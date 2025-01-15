@@ -2,4 +2,4 @@
 .env
 
 # Ignore generated images directory
-SD/01_py/images/
+images/
