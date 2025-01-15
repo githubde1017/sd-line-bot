@@ -1,4 +1,4 @@
-# Your Flask App
+# SD-LINE-BOT Flask App
 
 這是一個使用 Flask 構建的 LINE Bot 應用程式，能夠生成圖像並回覆用戶。這個應用程式集成了 SD-WebUI API，允許用戶通過 LINE 與應用程式互動，並生成基於提示的圖像。
 
@@ -34,22 +34,24 @@
 
 ### 安裝依賴包
 2. 安裝所需的依賴包：
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 ### 配置環境變數
 3. 創建 .env 文件並添加您的環境變數：
-
-LINE_CHANNEL_ACCESS_TOKEN=your_access_token
-NGROK_URL=https://your-ngrok-url
-LINE_CHANNEL_ACCESS_TOKEN：您的 LINE 頻道訪問令牌。
-NGROK_URL：您的 Ngrok URL。
+    ```bash
+    LINE_CHANNEL_ACCESS_TOKEN=your_access_token
+    NGROK_URL=https://your-ngrok-url
+    LINE_CHANNEL_ACCESS_TOKEN：您的 LINE 頻道訪問令牌。
+    NGROK_URL：您的 Ngrok URL。
 
 ### 運行應用程式
 4. 運行應用程式：
-```bash
-python sd-line-bot.py
+    ```bash
+    python sd-line-bot.py
+    
 應用程式將在 http://localhost:8080 上運行。
+
 ### 使用說明
 - 當應用程式運行後，您可以通過 LINE 與 Bot 互動。用戶可以發送以 --prompt 開頭的消息來生成圖像，例如：
 
