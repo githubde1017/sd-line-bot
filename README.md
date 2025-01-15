@@ -25,7 +25,7 @@
 ### 先決條件
 
 - 確保您已經安裝了 Python 3.x 和 pip。
-- 確保您已經安裝 sd-webui-forge(https://github.com/lllyasviel/stable-diffusion-webui-forge) or Stable Diffusion(https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
+- 確保您已經安裝 sd-webui-forge ( https://github.com/lllyasviel/stable-diffusion-webui-forge ) or Stable Diffusion( https://github.com/AUTOMATIC1111/stable-diffusion-webui )。
 
 ### 克隆專案
 
