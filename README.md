@@ -1,7 +1,7 @@
 # SD-LINE-BOT Flask App
 
 這是一個使用 Flask 構建的 LINE Bot 應用程式，能夠生成圖像並回覆用戶。這個應用程式集成了 SD-WebUI API，允許用戶通過 LINE 與應用程式互動，並生成基於提示的圖像。
-![LINE-BOT生成圖像](https://github.com/githubde1017/sd-line-bot/blob/main/sd-img-bot-userguide.jpg)
+
 ## 功能
 
 - 通過 LINE Bot 接受用戶消息
@@ -17,6 +17,8 @@
 - SD-WebUI API
 - dotenv (環境變數管理)
 - ngrok_url
+  
+![LINE-BOT生成圖像](https://github.com/githubde1017/sd-line-bot/blob/main/sd-img-bot-userguide.jpg)
 
 ## 設置
 
