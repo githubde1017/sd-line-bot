@@ -1,0 +1,7 @@
+sd-line-bot/
+│
+├── .env                  # 環境變數文件（不應上傳到 Git）
+├── .gitignore            # 忽略文件列表
+├── sd-line-bot.py                # Flask 應用程式主代碼
+├── requirements.txt      # Python 依賴包
+└── README.md             # 專案說明文件
